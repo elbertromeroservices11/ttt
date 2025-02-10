@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a web development content, tips and tricks or something new or some rant or some advice as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "Craft a high-energy tweet featuring Chainbase and Berachain with $C & $BERA placed randomly. Highlight exciting aspects like zircons, AI, and more while keeping the content fresh and engaging. Start with a bold opener, use dynamic emojis, and stay under 250 characters. Randomly position #ChainbaseCOMPETITION #AI #AIAgent $C @ChainbaseHQ @berachain, tag @BenjaminOnIP, and comment on Story Protocol’s IPs—without using parentheses.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
